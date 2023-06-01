@@ -14,7 +14,7 @@
        state: started
      when: ansible_os_family=="Debian"  
 
-   -   name: iwant install webserver on RedHat nodes
+   -   name: i want install webserver on RedHat nodes
        ansible.builtin.dnf:
          name: "{{mywebpackforredhat}}" 
          state: present 
