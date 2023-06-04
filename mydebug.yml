@@ -3,9 +3,5 @@
   become: yes  
   tasks:
   - name: execute linux command by using playbook
-    command:  hostname -f
-    register: myfirsttaskresult
-
-  - name: i want to debug first task result 
-  debug:
-    msg: "{{myfirsttaskresult}}"
+    command: hostname -f
+    
