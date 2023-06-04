@@ -6,7 +6,6 @@
     command: hostname -f
     register: myfirsttaskresult
 
-
-- name: i want to debug first task result 
+  - name: i want to debug first task result 
   debug:
-     msg: "{{myfirsttaskresult}}"
+    msg: "{{myfirsttaskresult}}"
