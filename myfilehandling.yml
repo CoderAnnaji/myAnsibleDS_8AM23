@@ -18,5 +18,5 @@
 
     - name: i want copy dynamic file in to nodes 
       template: 
-           src:
-           dest: /var/www/html/index.html 
+          src: myindex.j2
+          dest: /var/www/html/index.html 
