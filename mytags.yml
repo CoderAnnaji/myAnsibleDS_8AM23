@@ -4,13 +4,13 @@
   tasks: 
   - name: install git 
     apt: 
-      name: git 
-      state: present 
+        name: git 
+        state: present 
     tags: mygit 
     
-
+    
   - name: install tree 
     apt:
-      name: tree 
-      state: present  
+       name: tree 
+       state: present  
     tags: mytree   
