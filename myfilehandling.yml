@@ -19,12 +19,4 @@
     - name: i want copy dynamic file in to nodes 
       template: 
           src: myindex.j2
-          dest: /var/www/html/index.html 
-
-
-    - name: restartwebserver
-      service:
-          name: apache2 
-          state: restarted
-
-
+          dest: /var/www/html/index.html
