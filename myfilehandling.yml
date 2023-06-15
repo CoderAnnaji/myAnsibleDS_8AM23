@@ -23,7 +23,7 @@
       notify: restartwebserver
 
 
-    handlers:
+     handlers:
      - name: restartwebserver
        service: 
          name: apache2
