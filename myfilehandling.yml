@@ -5,7 +5,9 @@
     - include_tasks: myfile.yml 
     - name: i want to install webserver 
       apt: 
-        name: apache2
+        name: apache2 
+      notify: restartwebserver
+
     - name: copy index file in to node side 
       copy:
         src: myindefile 
